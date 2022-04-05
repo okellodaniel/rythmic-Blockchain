@@ -14,9 +14,7 @@ class Blockchain:
         previous_proof = previous_block['proof']
         proof = None
         index = len(self.chain) + 1
-    
-
-    
+        
     def _proof_pf_work(self,previos_proof: int,data: str, index:int) -> int:
         new_proof = 1
         check_proof = False
